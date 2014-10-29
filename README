@@ -1,0 +1,22 @@
+	Send Spam
+	=========
+
+	This is a simple script to send email (spam) created in Python to test spamassasin on my server.
+	
+	You need configure your smtp server. 
+	If you dont smtp server you can use gmail to send email, but gmail block 25 messages by minute.
+
+	Gmail
+	-----
+		Server: smtp.gmail.com
+		Port: 587
+		user: camargo@gmail.com
+		pass: xxxxxxxx
+
+
+	TODO
+	====
+		[ ] Add email using mime-type
+		[ ] Add statment to show better erros
+
+
