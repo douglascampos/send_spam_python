@@ -3,18 +3,18 @@
 # Import smtplib for the actual sending function
 import smtplib
 
-from_addr = 'bruno.batalha@locaweb.com.br'
-qtde 		 = 500
-to_addrs  = 'suporte@lw.pleskw0016.hospedagemdesites.ws'
+from_addr = 'from_email@domain.com.br'
+qtde 		 = 500 # Quantity of send mails.
+to_addrs  = 'destination_email@domain.com.br'
 
 msg = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
 
 # Credentials (if needed)
-username = 'bbatalha3'
-password = 'kfix0064'
+username = 'your_login_server'
+password = 'your_passw_server'
 
 # The actual mail send
-server = smtplib.SMTP('smtplw.com.br:587')
+server = smtplib.SMTP('addr_to_your_smtp_server:587')
 server.starttls()
 server.login(username,password)
 
